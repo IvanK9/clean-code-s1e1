@@ -39,6 +39,7 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
+    checkBox.className="todo__task_checkbox";
     editInput.type="text";
     editInput.className="todo__task-input";
 
@@ -50,6 +51,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.className="todo__btn todo__btn_delete";
     deleteButtonImg.src='./remove.svg';
     deleteButtonImg.alt='remove';
+    deleteButtonImg.className='todo__img';
     deleteButton.appendChild(deleteButtonImg);
 
 
