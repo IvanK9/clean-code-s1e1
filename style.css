@@ -32,7 +32,8 @@
   margin: 0 auto 0;
 }
 
-.todo__task {
+.todo__task-label,
+.todo__task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -158,11 +159,11 @@ label[for="new-task"] {
   display: none;
 }
 
-.editMode input[type=text] {
+.todo__list-item_edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.editMode label {
+.todo__list-item_edit label {
   display: none;
 }
